@@ -16,6 +16,7 @@ export type ValidSources =
   | "confluence"
   | "jira"
   | "slab"
+  | "guru"
   | "file";
 export type ValidInputTypes = "load_state" | "poll" | "event";
 
@@ -62,6 +63,9 @@ export interface SlackConfig {
 
 export interface SlabConfig {
   base_url: string;
+}
+
+export interface GuruConfig {
 }
 
 export interface FileConfig {
@@ -120,4 +124,9 @@ export interface GoogleDriveCredentialJson {
 
 export interface SlabCredentialJson {
   slab_bot_token: string;
+}
+
+export interface GuruCredentialJson {
+  guru_user: string;
+  guru_user_token: string;
 }

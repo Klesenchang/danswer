@@ -13,6 +13,7 @@ const sources: Source[] = [
   { displayName: "Slab", internalName: "slab" },
   { displayName: "Github PRs", internalName: "github" },
   { displayName: "Web", internalName: "web" },
+  { displayName: "Guru", internalName: "guru" },
   { displayName: "File", internalName: "file" },
 ];
 
