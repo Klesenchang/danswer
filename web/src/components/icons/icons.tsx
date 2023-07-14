@@ -147,6 +147,18 @@ export const SlabIcon = ({
   </div>
 );
 
+export const GuruIcon = ({
+  size = "16",
+  className = defaultTailwindCSS,
+}: IconProps) => (
+  <div
+    style={{ width: `${size}px`, height: `${size}px` }}
+    className={`w-[${size}px] h-[${size}px] ` + className}
+  >
+    <Image src="/SlabLogoBlue.png" alt="Logo" width="96" height="96" /> # TODO this is wrong
+  </div>
+);
+
 export const InfoIcon = ({
   size = "16",
   className = defaultTailwindCSS,
